@@ -7,6 +7,7 @@ const Pet = (props) => {
 };
 
 const App = () => {
+  console.log("testing commit 0.0.1")
   return React.createElement("div", {}, [
     React.createElement("h1", {}, "Adopt Me!"),
     React.createElement(Pet, {
